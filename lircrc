@@ -8,11 +8,15 @@ begin
 prog = irexec
 button = KEY_VOLUMEUP
 config = /usr/local/bin/volumio volume plus
+delay = 2
+repeat = 3
 end
 begin
 prog = irexec
 button = KEY_VOLUMEDOWN
 config = /usr/local/bin/volumio volume minus
+delay = 2
+repeat = 3
 end
 begin
 prog = irexec
