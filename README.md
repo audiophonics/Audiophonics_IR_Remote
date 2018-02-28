@@ -37,6 +37,8 @@ sudo wget https://raw.githubusercontent.com/audiophonics/Audiophonics_IR_Remote/
 sudo wget https://raw.githubusercontent.com/audiophonics/Audiophonics_IR_Remote/master/lircrc
 ```
 
+Reboot
+
 ```
 sudo /etc/init.d/lirc stop
 sudo /etc/init.d/lirc start
