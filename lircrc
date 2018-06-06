@@ -31,26 +31,12 @@ end
 begin
 prog = irexec
 button = KEY_MUTE
-config = /usr/local/bin/volumio volume toggle
+config = /usr/local/bin/volumio volume 0
 repeat = 0
 end
 begin
 prog = irexec
-button = KEY_UP
-config = /usr/local/bin/volumio seek plus
+button = KEY_POWER
+config = /home/volumio/softshutdown.sh
 end
-begin
-prog = irexec
-button = KEY_DOWN
-config = /usr/local/bin/volumio seek minus
-end
-begin
-prog = irexec
-button = KEY_BACK
-config = /usr/local/bin/volumio repeat
-end
-begin
-prog = irexec
-button = KEY_MENU
-config = /usr/local/bin/volumio random
-end
+
